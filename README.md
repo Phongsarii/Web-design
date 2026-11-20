@@ -1,44 +1,65 @@
-# Web Design
+# WEB DESIGN
+### A journey into the world of web development.
 
 <p align="center">
-  <strong>Learning Web Development, One Step at a Time.</strong>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=F5F2EB&height=180&section=header&text=WEB%20DESIGN&fontSize=48&fontColor=242424&fontAlignY=45&desc=Learning%20%7C%20Building%20%7C%20Improving&descAlignY=70&descSize=13" width="100%" alt="Web Design banner"/>
 </p>
 
 <p align="center">
-  A collection of web development exercises, practical projects, and learning activities from my Computer Science and Engineering journey.
+  <a href="https://github.com/Phongsarii">GitHub Profile</a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/Phongsarii/Web-design">Repository</a>
 </p>
 
 ---
 
-## About This Repository
+## 01 / Introduction
 
-Welcome to my Web Design repository!
+Welcome to my **Web Design** repository.
 
-This repository documents my learning journey in web development as a Computer Science and Engineering (CSE) student.
+I'm **Nhaing Phongsari**, a Computer Science and Engineering student exploring the fundamentals of web development.
 
-It contains practical exercises, HTML structures, and projects created to strengthen my understanding of how websites are built and organized.
+This repository is a personal learning space where I document my progress, practice coding, and develop practical skills through university exercises and projects.
 
-My goal is to build a solid foundation in web technologies through continuous learning and hands-on practice.
+I believe that every great developer starts with a strong foundation.
 
-## About Me
+## 02 / Technologies
 
-Hi, I'm **Nhaing Phongsari**, a Computer Science and Engineering student with an interest in programming, web development, and technology.
+The tools and technologies I'm learning and practicing.
 
-I'm currently developing my technical skills through university coursework, personal practice, and practical projects.
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=html,css,js,vscode,git,github" height="42" alt="Technologies"/>
+</p>
 
-I believe in learning through practice, understanding the fundamentals, and improving step by step.
-
-## Technologies & Tools
-
-| Technology | Purpose |
+| Technology | Focus |
 |:--|:--|
-| HTML5 | Web page structure |
-| CSS3 | Styling and layout |
-| JavaScript | Web interactivity |
-| Visual Studio Code | Code editor |
+| HTML5 | Structure and semantics |
+| CSS3 | Styling and layouts |
+| JavaScript | Programming and interactivity |
+| VS Code | Development environment |
 | Git & GitHub | Version control |
 
-## Repository Structure
+## 03 / Projects & Exercises
+
+A collection of my practical learning activities.
+
+| Project | Description |
+|:--|:--|
+| `index.html` | Main HTML practice page |
+| `structure.html` | Semantic HTML structure exercise |
+
+## 04 / Learning Goals
+
+My current focus is building a strong foundation in front-end development.
+
+- [x] Learn basic HTML elements.
+- [x] Understand semantic HTML structure.
+- [ ] Master CSS fundamentals.
+- [ ] Build responsive web layouts.
+- [ ] Learn JavaScript fundamentals.
+- [ ] Develop interactive web projects.
+
+## 05 / Repository Structure
 
 ```text
 Web-design/
@@ -48,23 +69,24 @@ Web-design/
 └── README.md
 ```
 
-## Learning Objectives
+## 06 / Philosophy
 
-- Understand HTML elements and semantic structure.
-- Build well-organized web pages.
-- Learn CSS styling and responsive layouts.
-- Develop interactive websites using JavaScript.
-- Practice clean and readable code.
-- Build practical projects through continuous improvement.
+<p align="center">
+  <em>"Great things are built one step at a time."</em>
+</p>
 
-## Learning Philosophy
+I'm not just learning how to write code. I'm learning how to think, solve problems, and build things that matter.
 
-> Learn the fundamentals. Practice consistently. Build with purpose.
-
-This repository represents my progress as I explore web development and grow as a future software engineer.
+Every exercise is progress. Every project is experience.
 
 ---
 
 <p align="center">
-  <sub>Created and maintained by Nhaing Phongsari</sub>
+  <strong>NHAING PHONGSARI</strong>
+  <br/>
+  <sub>Computer Science & Engineering Student</sub>
+  <br/><br/>
+  <a href="https://github.com/Phongsarii">GitHub</a>
+  <br/><br/>
+  <sub>© 2026 · Personal Learning Repository</sub>
 </p>
