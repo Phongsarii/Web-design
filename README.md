@@ -19,7 +19,11 @@
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=Phongsarii&theme=default&hide_border=true&layout=compact)
 
 <div align="center">
-  <img src="https://i.pinimg.com/originals/5f/93/49/5f934966a1d20bae1909c9ef2278bd4c.gif" width="300" alt="Aesthetic cat animation"/>
+  <img
+    src="https://i.pinimg.com/originals/a0/d5/81/a0d581666d26dd9c66bf8ed395cba948.gif"
+    width="350"
+    alt="Aesthetic animation"
+  />
 </div>
 
 <p align="center">
