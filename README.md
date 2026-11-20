@@ -1,4 +1,4 @@
-# Hi, I'm Phongsarii ✦
+# Hi, I'm Phongsari ✦
 
 - 🎓 Computer Science & Engineering Student
 - 💻 Interested in Programming and Web Development
