@@ -20,9 +20,9 @@
 
 <div align="center">
   <img
-    src="https://i.pinimg.com/originals/a0/d5/81/a0d581666d26dd9c66bf8ed395cba948.gif"
+    src="https://i.pinimg.com/originals/c9/4f/cc/c94fcc83fd597230c5cdcbb5b7f36699.gif"
     width="350"
-    alt="Aesthetic animation"
+    alt="Aesthetic GIF"
   />
 </div>
 
