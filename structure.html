@@ -1,125 +1,126 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>My First Web Structure</title>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document-structure.html</title>
     <style>
+        * {
+            box-sizing: border-box;
+        }
+        html {
+            background: #e2e8f0;
+        }
         body {
-            font-family: Arial;
-            text-align: center;
-            background-color: #f5f5f5;
+            width: min(820px, 100%);
+            margin: 0 auto;
+            min-height: 100vh;
+            background: #f8fafc;
+            display: grid;
+            grid-template-columns: minmax(0, 2.05fr) minmax(0, 1fr);
+            align-items: stretch;
+            gap: 16px;
+            padding: 28px 20px 40px;
+            font-family: monospace, sans-serif;
+            font-weight: bold;
         }
-
+        header, nav, main, article, section, aside, footer {
+            border: 2.5px solid;
+            border-radius: 16px;
+            letter-spacing: 0.2px;
+        }
+        header, nav, footer {
+            grid-column: 1 / -1;
+        }
         header {
-            background-color: #eadcff;
-            color: #663399;
-            padding: 20px;
-            margin: 10px;
-            border: 2px solid #a66cff;
-            border-radius: 10px;
+            background-color: #ede4fa;
+            border-color: #8b3dff;
+            color: #7c2ae8;
+            height: 92px;
+            display: grid;
+            place-items: center;
         }
-
         nav {
-            background-color: #d6ebff;
-            padding: 15px;
-            margin: 10px;
-            border: 2px solid #55aaff;
-            border-radius: 10px;
+            background-color: #e3f2fd;
+            border-color: #42a5f5;
+            color: #1e88e5;
+            height: 72px;
+            display: grid;
+            place-items: center;
         }
-
-        nav a {
-            margin: 15px;
-            color: #245b91;
-            text-decoration: none;
-        }
-
         main {
-            background-color: #d9f2e8;
-            padding: 20px;
-            margin: 10px;
-            border: 2px solid #55b99c;
-            border-radius: 10px;
+            background-color: #e3f6ed;
+            border-color: #2eb872;
+            color: #1e9e5a;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            padding: 16px;
         }
-
-        article {
-            background-color: #ffe1d6;
-            padding: 20px;
-            margin: 10px;
-            border: 2px solid #e87950;
-            border-radius: 10px;
-        }
-
-        section {
-            background-color: #e5ddff;
-            padding: 20px;
-            margin: 10px;
-            border: 2px solid #9771dd;
-            border-radius: 10px;
-        }
-
         aside {
-            background-color: #d6ebff;
-            padding: 20px;
-            margin: 10px;
-            border: 2px solid #55aaff;
-            border-radius: 10px;
+            background-color: #dfe9f5;
+            border-color: #3b719f;
+            color: #2c5d87;
+            display: grid;
+            place-items: center;
+            padding: 16px;
         }
-
+        article {
+            background-color: #e6dfd9;
+            border-color: #e65100;
+            color: #d84315;
+            display: grid;
+            place-items: center;
+            padding: 16px;
+            min-height: 180px;
+            width: 100%;
+        }
+        section {
+            background-color: #dce3f7;
+            border-color: #7e57c2;
+            color: #673ab7;
+            display: grid;
+            place-items: center;
+            padding: 16px;
+            min-height: 180px;
+            width: 100%;
+        }
         footer {
-            background-color: #ccebe5;
-            color: #286b60;
-            padding: 20px;
-            margin: 10px;
-            border: 2px solid #55aa99;
-            border-radius: 10px;
+            background-color: #ddebe6;
+            border-color: #2e8b6e;
+            color: #1f7a5c;
+            display: grid;
+            place-items: center;
+            height: 100px;
+        }
+        @media (max-width: 700px) {
+            body {
+                grid-template-columns: 1fr;
+            }
+            header,
+            nav,
+            main,
+            article,
+            section,
+            aside,
+            footer {
+                font-size: 12px;
+            }
+            aside {
+                min-height: 180px;
+            }
         }
     </style>
 </head>
-
 <body>
-
-    <!-- Website Header -->
-    <header>
-        <h1>My Website</h1>
-        <p>Welcome to my website</p>
-    </header>
-
-    <!-- Navigation Menu -->
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
-    </nav>
-
-    <!-- Main Content -->
+    <header>&lt;header&gt;</header>
+    <nav>&lt;nav&gt;</nav>
     <main>
-
-        <!-- Article Content -->
-        <article>
-            <h2>About Me</h2>
-            <p>My name is Sari. I am a CSE student.</p>
-        </article>
-
-        <!-- Section Content -->
-        <section>
-            <h2>My Education</h2>
-            <p>I study Computer Science and Engineering.</p>
-        </section>
-
-        <!-- Additional Information -->
-        <aside>
-            <h3>My Interests</h3>
-            <p>Programming, Technology, and AI.</p>
-        </aside>
-
+        &lt;main&gt;
+        <article>&lt;article&gt;</article>
+        <section>&lt;section&gt;</section>
     </main>
-
-    <!-- Website Footer -->
-    <footer>
-        <p>Copyright 2026 My Website</p>
-    </footer>
-
+    <aside>&lt;aside&gt;</aside>
+    <footer>&lt;footer&gt;</footer>
 </body>
 </html>
